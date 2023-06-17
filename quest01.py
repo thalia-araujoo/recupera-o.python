@@ -14,8 +14,8 @@ def verificar(cupom):
         print("Cupom inválido")
 #função principal pede um numero ao usuario e chamo a função para verificar.
 def main():
-    cupom = int(input("Digite o número do cupom: "))
-    r = verificar(cupom)
+    N_cupom = int(input("Digite o número do cupom: "))
+    r = verificar(N_cupom)
     print(r)
     
 if __name__=="__main__":
