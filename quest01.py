@@ -8,10 +8,10 @@ def verificar(cupom):
     ultimo_cupom = 208
 #verifiquei se o cupom esta entre esses numero..se estiver ele diz valido
     if primeiro_cupom <= cupom <= ultimo_cupom:
-        print("Cupom válido")
+        return "Cupom válido"
     
     else:
-        print("Cupom inválido")
+        return "Cupom inválido"
 #função principal pede um numero ao usuario e chamo a função para verificar.
 def main():
     N_cupom = int(input("Digite o número do cupom: "))
